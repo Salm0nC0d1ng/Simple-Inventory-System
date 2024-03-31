@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <h2>Inventory System</h2>
+        <form action="#" id="inputForm">
+            <p id="usersList"></p>
+            <p>Item: <input type="text" id="item"></p>
+            <p>Quantity: <input type="number" id="quantity"></p>
+            <input type="submit" value="Submit" id="submitButton">
+        </form>
+        <div class="setVisibility">
+            <p>View table (Check the box)<input type="checkbox" id="checkbox"
+            style="margin:auto;"></p>
+        </div>
+        <div class="tablesSection" style="margin-top: 10px; display: none;">
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                </tr>
+            </table>
+        </div>
+        <form id="editForm" style="display: none;">
+            <input type="text" id="newText"/>
+            <input type="submit">
+        </form>
+        <script src="Reference.js"></script>
+    </body>
+</html>
